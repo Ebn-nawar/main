@@ -1,0 +1,54 @@
+:root{
+    --main-color:rgba(253, 76, 14, 1);
+}
+h1 {
+  font-weight: 700;
+}
+/* .btn-sub{
+
+} */
+[data-bs-theme="dark"] {
+  --bs-body-bg: #060606;
+  --bs-tertiary-bg-rgb: 22, 22, 22;
+  --bs-secondary-rgb: 26, 26, 26;
+}
+.form-control {
+  border: 0;
+  background-color: #06060600;
+}
+.fs-1 {
+  font-size: 100px !important;
+}
+.items p {
+  margin: 0;
+}
+.main-mail-form {
+    position: relative;
+    bottom: 110px;
+    hr {
+      margin: 0;
+      color: var(--main-color);
+      opacity: 1
+    }
+  }
+.navbar-expand-lg .navbar-collapse {
+  justify-content: space-around;
+}
+
+.navbar-nav,
+.footer {
+  --bs-nav-link-font-size: 16px;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+  color: var(--main-color);
+}
+
+.header {
+  height: 80vh;
+}
+
+.footer {
+  --bs-dark-rgb: 22, 22, 22;
+}
