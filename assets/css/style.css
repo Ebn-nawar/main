@@ -1,12 +1,27 @@
 :root{
     --main-color:rgba(253, 76, 14, 1);
 }
+*{
+  .bg-main{
+    background-color: var(--main-color);
+  }
+  .text-main{
+    color: var(--main-color);
+  }
+  p{
+    font-size: 16px;
+  }
+  .bottom-25{
+    bottom: 25% !important;
+  }
+}
 h1 {
   font-weight: 700;
 }
-/* .btn-sub{
-
-} */
+.btn:hover{
+  background-color: var(--main-color);
+  color: var(--bs-heading-color);
+}
 [data-bs-theme="dark"] {
   --bs-body-bg: #060606;
   --bs-tertiary-bg-rgb: 22, 22, 22;
