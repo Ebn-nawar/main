@@ -1,24 +1,45 @@
-:root{
-    --main-color:rgba(253, 76, 14, 1);
+:root {
+  --main-color: rgba(253, 76, 14, 1);
 }
-*{
-  .bg-main{
+* {
+  /* start faq style */
+  --bs-accordion-btn-padding-y : 10px;
+  .accordion-button:focus{
+    box-shadow: none;
+  }
+  .accordion-button{
+    border-bottom: 1px solid var(--bs-accordion-border-color) ;
+  }
+  .accordion-button::after{
+    background-image: url("../imgs/plusMainColor.svg");
+  }
+  .accordion-button:not(.collapsed)::after{
+    background-image: url("../imgs/minus.svg");
+  }
+  /* end faq style */
+  .bg-main {
     background-color: var(--main-color);
   }
-  .text-main{
+  .border-main{
+    border-color: var(--main-color) !important;
+  }
+  .text-main {
     color: var(--main-color);
   }
-  p{
+  .min-vh-50{
+    min-height: 50vh;
+  }
+  p {
     font-size: 16px;
   }
-  .bottom-25{
+  .bottom-25 {
     bottom: 25% !important;
   }
 }
 h1 {
   font-weight: 700;
 }
-.btn:hover{
+.btn:hover {
   background-color: var(--main-color);
   color: var(--bs-heading-color);
 }
@@ -26,6 +47,14 @@ h1 {
   --bs-body-bg: #060606;
   --bs-tertiary-bg-rgb: 22, 22, 22;
   --bs-secondary-rgb: 26, 26, 26;
+  /* start faq style */
+  --bs-primary-bg-subtle : var(--bs-dark-rgb);
+  --bs-primary-text-emphasis : var(--main-color);
+  /* end faq style */
+  .footer {
+    --bs-dark-rgb: 22, 22, 22;
+  }
+
 }
 .form-control {
   border: 0;
@@ -38,14 +67,14 @@ h1 {
   margin: 0;
 }
 .main-mail-form {
-    position: relative;
-    bottom: 110px;
-    hr {
-      margin: 0;
-      color: var(--main-color);
-      opacity: 1
-    }
+  position: relative;
+  bottom: 110px;
+  hr {
+    margin: 0;
+    color: var(--main-color);
+    opacity: 1;
   }
+}
 .navbar-expand-lg .navbar-collapse {
   justify-content: space-around;
 }
@@ -61,9 +90,18 @@ h1 {
 }
 
 .header {
-  height: 80vh;
+  min-height: 80vh;
 }
 
-.footer {
-  --bs-dark-rgb: 22, 22, 22;
+.main-head{
+  min-height: 50vh;
+  .card-head {
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
