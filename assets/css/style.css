@@ -29,6 +29,10 @@
   .min-vh-50{
     min-height: 50vh;
   }
+  .form-check-input:checked{
+    border-color: var(--main-color);
+    background-color: var(--main-color);
+  }
   p {
     font-size: 16px;
   }
