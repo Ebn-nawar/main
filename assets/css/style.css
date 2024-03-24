@@ -1,5 +1,5 @@
 :root {
-  --main-color: rgba(253, 76, 14, 1);
+  --main-color: #fff;
 }
 * {
   /* start faq style */
@@ -26,8 +26,13 @@
   .text-main {
     color: var(--main-color);
   }
-  .min-vh-50{
-    min-height: 50vh;
+  @media screen and (max-width: 768px) {
+    .min-vh-sm-50{
+      min-height: min-content !important;
+    }
+    .min-vh-sm-100 {
+      min-height: min-content !important;
+    }
   }
   .form-check-input:checked{
     border-color: var(--main-color);
@@ -43,10 +48,7 @@
 h1 {
   font-weight: 700;
 }
-.btn:hover {
-  background-color: var(--main-color);
-  color: var(--bs-heading-color);
-}
+
 [data-bs-theme="dark"] {
   --bs-body-bg: #060606;
   --bs-tertiary-bg-rgb: 22, 22, 22;
@@ -72,7 +74,7 @@ h1 {
 }
 .main-mail-form {
   position: relative;
-  bottom: 110px;
+  bottom: 70px;
   hr {
     margin: 0;
     color: var(--main-color);
