@@ -17,6 +17,12 @@
     background-image: url("../imgs/minus.svg");
   }
   /* end faq style */
+  section{
+    background-size: cover;
+  }
+  .background{
+    background-color: rgba(0, 0, 0, 0.75);
+  }
   .bg-main {
     background-color: var(--main-color);
   }
@@ -65,10 +71,7 @@ h1 {
   }
 
 }
-.form-control {
-  border: 0;
-  background-color: #06060600;
-}
+
 .fs-1 {
   font-size: 100px !important;
 }
