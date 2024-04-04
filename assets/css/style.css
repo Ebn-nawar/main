@@ -23,6 +23,10 @@
   .background{
     background-color: rgba(0, 0, 0, 0.75);
   }
+  .row{
+    margin-right: 0;
+    margin-left: 0;
+  }
   .bg-main {
     background-color: var(--main-color);
   }
