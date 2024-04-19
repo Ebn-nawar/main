@@ -1,5 +1,7 @@
 :root {
   --main-color: #fff;
+  --bs-body-font-family : "Almarai", sans-serif;
+
 }
 * {
   /* start faq style */
@@ -17,6 +19,7 @@
     background-image: url("../imgs/minus.svg");
   }
   /* end faq style */
+
   section{
     background-size: cover;
   }
@@ -50,6 +53,9 @@
   }
   .cards img{
     color: var(--main-color)
+  }
+  .card{
+    --bs-card-bg: rgba( 222,226,230 , 0) !important
   }
   p {
     font-size: 16px;

@@ -1,7 +1,11 @@
-const body = document.querySelector("body");
-
-modeChange.addEventListener("click", function () {
-  body.dataset.bsTheme === "dark"
-    ? (body.dataset.bsTheme = "light")
-    : (body.dataset.bsTheme = "dark");
+$(document).ready(function () {
+  var owl = $(".owl-carousel");
+  owl.owlCarousel({
+    items: 3,
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    autoplayHoverPause: true,
+  });
 });
