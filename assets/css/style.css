@@ -39,6 +39,9 @@
   .text-main {
     color: var(--main-color);
   }
+  .icon-footer{
+    width: 5vh;
+  }
   @media screen and (max-width: 768px) {
     .min-vh-sm-50{
       min-height: min-content !important;
