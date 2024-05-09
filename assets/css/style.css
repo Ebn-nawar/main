@@ -1,64 +1,68 @@
 :root {
   --main-color: #fff;
-  --bs-body-font-family : "Almarai", sans-serif;
-
+  --bs-body-font-family: "Almarai", sans-serif;
 }
 * {
   /* start faq style */
-  --bs-accordion-btn-padding-y : 10px;
-  .accordion-button:focus{
+  --bs-accordion-btn-padding-y: 10px;
+  .accordion-button:focus {
     box-shadow: none;
   }
-  .accordion-button{
-    border-bottom: 1px solid var(--bs-accordion-border-color) ;
+  .accordion-button {
+    border-bottom: 1px solid var(--bs-accordion-border-color);
   }
-  .accordion-button::after{
+  .accordion-button::after {
     background-image: url("../imgs/plusMainColor.svg");
   }
-  .accordion-button:not(.collapsed)::after{
+  .accordion-button:not(.collapsed)::after {
     background-image: url("../imgs/minus.svg");
   }
   /* end faq style */
 
-  section{
+  section {
     background-size: cover;
   }
-  .background{
+  .background {
     background-color: rgba(0, 0, 0, 0.75);
   }
-  .row{
+  .row {
     margin-right: 0;
     margin-left: 0;
   }
   .bg-main {
     background-color: var(--main-color);
   }
-  .border-main{
+  .border-main {
     border-color: var(--main-color) !important;
   }
   .text-main {
     color: var(--main-color);
   }
-  .icon-footer{
+  .icon-footer {
     width: 5vh;
   }
+  textarea::placeholder,
+  input::placeholder {
+    font-weight: 100;
+    opacity: 0;
+  }
   @media screen and (max-width: 768px) {
-    .min-vh-sm-50{
+    .min-vh-sm-50 {
       min-height: min-content !important;
     }
     .min-vh-sm-100 {
       min-height: min-content !important;
     }
   }
-  .form-check-input:checked{
+  .form-check-input:checked {
     border-color: var(--main-color);
     background-color: var(--main-color);
   }
-  .cards img{
-    color: var(--main-color)
+  .cards img {
+    color: var(--main-color);
   }
-  .card{
-    --bs-card-bg: rgba( 222,226,230 , 0) !important
+  .card {
+    --bs-card-bg: rgba(222, 226, 230, 0) !important;
   }
   p {
     font-size: 16px;
@@ -76,13 +80,12 @@ h1 {
   --bs-tertiary-bg-rgb: 22, 22, 22;
   --bs-secondary-rgb: 26, 26, 26;
   /* start faq style */
-  --bs-primary-bg-subtle : var(--bs-dark-rgb);
-  --bs-primary-text-emphasis : var(--main-color);
+  --bs-primary-bg-subtle: var(--bs-dark-rgb);
+  --bs-primary-text-emphasis: var(--main-color);
   /* end faq style */
   .footer {
     --bs-dark-rgb: 22, 22, 22;
   }
-
 }
 
 .fs-1 {
@@ -118,7 +121,7 @@ h1 {
   min-height: 80vh;
 }
 
-.main-head{
+.main-head {
   min-height: 50vh;
   .card-head {
     height: 40vh;
@@ -129,4 +132,3 @@ h1 {
     align-items: center;
   }
 }
-
