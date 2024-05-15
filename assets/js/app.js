@@ -8,7 +8,7 @@ const contactForm = document.forms["contactForm"],
   // patterns
   fullNamePattern = /[a-z]+\s[a-z]+\s[a-z]+/ig,
   phoneNumberPattern = /\d{10}/ig,
-  emailPattern = /[a-zA-z]+@[a-zA-z]+.[a-zA-z]+/ig,
+  emailPattern = /[a-zA-z0-9._-]+@[a-zA-z0-9.-]+.[a-zA-z]+/ig,
   msgPattern = /[a-zA-z]{3}/ig;
 
   contactForm.addEventListener("submit" , function(e){
