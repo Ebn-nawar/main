@@ -136,3 +136,9 @@ h1 {
     align-items: center;
   }
 }
+#contact{
+    .col-4,.col-8{
+      padding: 0 !important;
+      margin: 0 !important;
+    }
+}
