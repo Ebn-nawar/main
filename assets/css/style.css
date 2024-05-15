@@ -8,6 +8,7 @@
   .accordion-button:focus {
     box-shadow: none;
   }
+  
   .accordion-button {
     border-bottom: 1px solid var(--bs-accordion-border-color);
   }
@@ -24,6 +25,9 @@
   }
   .background {
     background-color: rgba(0, 0, 0, 0.75);
+  }
+  .page-link{
+    color: #fff;
   }
   .row {
     margin-right: 0;
