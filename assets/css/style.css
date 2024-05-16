@@ -66,7 +66,7 @@
     color: var(--main-color);
   }
   .card {
-    --bs-card-bg: rgba(222, 226, 230, 0) !important;
+    --bs-card-bg: rgba(48, 47, 47, 1) !important;
   }
   p {
     font-size: 16px;
