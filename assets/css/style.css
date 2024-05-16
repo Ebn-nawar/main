@@ -29,7 +29,9 @@
   .page-link{
     color: #fff;
   }
-  
+  .row{
+    --bs-gutter-x: 1rem;
+  }
   .bg-main {
     background-color: var(--main-color);
   }
