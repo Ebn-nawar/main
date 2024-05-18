@@ -1,11 +1,21 @@
 :root {
   --main-color: #fff;
   --bs-body-font-family: manchettemodern;
-  
+}
+@media screen and (max-width: 768px){
+  :root{
+    --bs-body-font-family: manchettemodern-small;
+
+  }
+
 }
 @font-face{
   font-family: manchettemodern ;
-  src: url("../manchettemodern/ManchetteModern-Medium.otf");
+  src: url("../manchettemodern/ManchetteModern-Black.otf");
+}
+@font-face{
+  font-family: manchettemodern-small ;
+  src: url("../manchettemodern/ManchetteModern-Regular.otf");
 }
 @media screen and (max-width: 768px){
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
