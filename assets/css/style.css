@@ -1,6 +1,7 @@
 :root {
   --main-color: #fff;
   --bs-body-font-family: manchettemodern;
+  
 }
 @font-face{
   font-family: manchettemodern ;
@@ -8,7 +9,7 @@
 }
 @media screen and (max-width: 768px){
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    --bs-gutter-x: 3rem;
+    --bs-gutter-x: 3.5rem;
   }
 }
 * {
@@ -75,6 +76,7 @@
   }
   .card {
     --bs-card-bg: rgba(48, 47, 47, 1) !important;
+    --bs-card-border-color: rgb(255 255 255 / 0%) !important;
   }
   p {
     font-size: 16px;
