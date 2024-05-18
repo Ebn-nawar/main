@@ -1,6 +1,10 @@
 :root {
   --main-color: #fff;
-  --bs-body-font-family: "Almarai", sans-serif;
+  --bs-body-font-family: manchettemodern;
+}
+@font-face{
+  font-family: manchettemodern ;
+  src: url("../manchettemodern/ManchetteModern-Medium.otf");
 }
 * {
   /* start faq style */
@@ -77,7 +81,16 @@
 h1 {
   font-weight: 700;
 }
-
+.about-body{
+  p{
+     font-size: 28px;
+  }
+  @media (max-width: 768px){
+    p{
+      font-size: 16px;
+    }
+  }
+}
 [data-bs-theme="dark"] {
   --bs-body-bg: #060606;
   --bs-tertiary-bg-rgb: 22, 22, 22;
