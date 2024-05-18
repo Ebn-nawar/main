@@ -6,6 +6,11 @@
   font-family: manchettemodern ;
   src: url("../manchettemodern/ManchetteModern-Medium.otf");
 }
+@media screen and (max-width: 768px){
+  .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    --bs-gutter-x: 2.5rem;
+  }
+}
 * {
   /* start faq style */
   --bs-accordion-btn-padding-y: 10px;
