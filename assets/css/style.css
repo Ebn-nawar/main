@@ -1,21 +1,21 @@
 :root {
   --main-color: #fff;
-  --bs-body-font-family: manchettemodern;
+  --bs-body-font-family: mfSadu;
 }
 @media screen and (max-width: 768px){
   :root{
-    --bs-body-font-family: manchettemodern-small;
+    --bs-body-font-family: mfSadu-small;
 
   }
 
 }
 @font-face{
-  font-family: manchettemodern ;
-  src: url("../manchettemodern/ManchetteModern-Black.otf");
+  font-family: mfSadu ;
+  src: url("../fonts/MFSadu-Bold.otf");
 }
 @font-face{
-  font-family: manchettemodern-small ;
-  src: url("../manchettemodern/ManchetteModern-Regular.otf");
+  font-family: mfSadu-small ;
+  src: url("../fonts/MFSadu-Medium.otf");
 }
 @media screen and (max-width: 768px){
   .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
