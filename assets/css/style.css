@@ -131,7 +131,7 @@ h1 {
 .w-75-serv{
   width: 75% !important;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1440px){
   .serv-text{
     font-size: 1rem !important;
     max-height: 110px !important;
