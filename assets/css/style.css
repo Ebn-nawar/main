@@ -109,7 +109,7 @@ h1 {
   }
 }
 [data-bs-theme="dark"] {
-  --bs-body-bg: #060606;
+  --bs-body-bg: rgba(var(--bs-dark-rgb)) !important;
   --bs-tertiary-bg-rgb: 22, 22, 22;
   --bs-secondary-rgb: 26, 26, 26;
   /* start faq style */
@@ -123,6 +123,12 @@ h1 {
 
 .fs-1 {
   font-size: 100px !important;
+}
+@media screen and (max-width: 1024px){
+  .fs-5{
+    font-size: 0.75rem !important;
+  }
+
 }
 .items p {
   margin: 0;
