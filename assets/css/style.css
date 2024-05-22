@@ -124,11 +124,17 @@ h1 {
 .fs-1 {
   font-size: 100px !important;
 }
+.serv-text{
+  font-size: 1.25rem !important;
+  height: 230px;
+}
 @media screen and (max-width: 1024px){
-  .fs-5{
+  .serv-text{
     font-size: 0.75rem !important;
+    max-height: 90px !important;
+    height: 90px !important;
   }
-
+  
 }
 .items p {
   margin: 0;
