@@ -128,12 +128,19 @@ h1 {
   font-size: 1.25rem !important;
   height: 230px;
 }
+.w-75-serv{
+  width: 75% !important;
+}
 @media screen and (max-width: 1024px){
   .serv-text{
-    font-size: 0.75rem !important;
-    max-height: 90px !important;
-    height: 90px !important;
+    font-size: 1rem !important;
+    max-height: 110px !important;
+    height: 107px !important;
   }
+  .w-75-serv{
+    width: 50% !important;
+  }
+
   
 }
 .items p {
